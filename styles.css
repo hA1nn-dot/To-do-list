@@ -9,15 +9,17 @@ html{
 }
 
 header{
-    width: 100%;
     background-color: #F6F4F3;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 li{
+    background-color:#183059;                                      
+    text-align: center;
+    line-height: 50px;
     display: inline-block;
-    background-color: red;                                         
     margin: 0;
     padding: 0;
 }
@@ -28,7 +30,6 @@ nav{
 }
 nav > ul{
     display: flex;
-    background-color: black;
 }
 
 a{
