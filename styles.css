@@ -20,19 +20,23 @@ nav > ul{
 }
 
 li{                                    
+    background-color: #276FBF;
     text-align: center;
     line-height: 50px;
     display: inline-block;
 }
 
 a{
-    background-color: #276FBF;
     color: #F6F4F3;
-    width: 50px;
+    width: 100px;
     height: 50px;
     display: block;
     text-decoration: none;
     font-size: 20px;
+}
+
+li:hover{
+    background-color: #115aad;
 }
 
 .container{
