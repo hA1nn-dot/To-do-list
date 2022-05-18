@@ -183,8 +183,8 @@ li:hover{
     height: 100%;
     stroke: #141414;
     stroke-width: 10px;
-    stroke-dasharray: 1415;
-    stroke-dashoffset: 1416;
+    stroke-dasharray: 1700;
+    stroke-dashoffset: 1700;
     transition: .5s ease all;
 }
 
