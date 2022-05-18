@@ -132,6 +132,41 @@ li:hover{
     transform-origin: center;
 }
 
+.btn.cuatro span{
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 43%;
+}
+
+.btn.cuatro .icono{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: -40px;
+    transition: .3s ease-in-out all;
+    opacity: 0;
+}
+
+.btn.cuatro:hover{
+    background-color: #2f9b05;
+}
+
+.btn.cuatro:hover .icono{
+    left: 90%;
+    opacity: 1;
+}
+
+.btn.cinco svg{
+    color: #F6F4F3;
+    width: 35px;
+    height: 35px;
+}
+
+.btn.cuatro:hover span{
+    left: 40px;
+}
+
 .btn.uno:hover::after{
     top: 0;
 }
