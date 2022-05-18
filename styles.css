@@ -163,6 +163,35 @@ li:hover{
     height: 35px;
 }
 
+.btn.cinco{
+    background: none;
+    color: #141414;
+
+}
+
+.btn.cinco svg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: none;
+}
+
+.btn.cinco rect{
+    width: 100%;
+    height: 100%;
+    stroke: #141414;
+    stroke-width: 10px;
+    stroke-dasharray: 1415;
+    stroke-dashoffset: 1416;
+    transition: .5s ease all;
+}
+
+.btn.cinco:hover rect{
+    stroke-dashoffset: 0;
+}
+
 .btn.cuatro:hover span{
     left: 40px;
 }
