@@ -244,4 +244,7 @@ li:hover{
     .logo{
         display: none;
     }
+    .section1{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
