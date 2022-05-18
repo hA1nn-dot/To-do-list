@@ -118,12 +118,35 @@ li:hover{
     transition: .4s ease-in-out all
 }
 
+.btn.tres::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 100%;
+    transform-origin: center;
+}
+
 .btn.uno:hover::after{
     top: 0;
 }
 
 .btn.dos:hover::after{
     left: 0;
+}
+
+.btn.tres:hover::after{
+    transform: scale(300);
+    background: #cc1010;
+}
+
+.btn.tres:hover{
+    background-color: #960909;
 }
 
 @media all and (max-width: 800px){
